@@ -14,7 +14,10 @@ urlpatterns = [
 
     # 注册接口：使用自定义视图（RegisterView），创建新用户
     # 请求方式：POST，参数包含用户名、邮箱、密码等信息
-    path("user/register/", api_views.RegisterView.as_view())
+    path("user/register/", api_views.RegisterView.as_view()),
+
+    path("user/password-reset/<email>/",api_views.PasswordResetEmailVerifyAPIView.as_view()),
+    path("user/password-change/",api_views.PasswordChangeAPIView.as_view())
 
 ]
 
