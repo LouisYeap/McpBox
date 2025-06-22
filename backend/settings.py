@@ -85,7 +85,7 @@ INSTALLED_APPS = [
     # 提供 API 接口的应用（可能用 DRF 实现）
     'api',
 
-    # ----------------- 第三方应用 -----------------
+    # ----------------- 第三方应用 -----------------～～
 
     # Django REST Framework，强大的REST API开发框架
     'rest_framework',

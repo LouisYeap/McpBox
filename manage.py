@@ -13,10 +13,10 @@ def main():
     except ImportError as exc:
         raise ImportError(
             "Couldn't import Django. Are you sure it's installed and "
-            "available on your PYTHONPATH environment variable? Did you "
+            "available on your PYTHON environment variable? Did you "
             "forget to activate a virtual environment?"
         ) from exc
-    # 执行你在命令行输入的命令，比如 runserver、makemigrations 等。
+    # 执行你在命令行输入的命令，比如 runserver、make migrations 等。
     execute_from_command_line(sys.argv)
 
 
