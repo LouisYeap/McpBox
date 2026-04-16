@@ -1,2 +1,51 @@
-venv
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Virtual environments
 .env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# mypy / pyright
+.mypy_cache/
+.pyre/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local config
+*.local.py
+config.local.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
